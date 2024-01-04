@@ -9,7 +9,7 @@
  * Author URI:        https://evnt.is/1971
  * License:           GPL version 3 or any later version
  * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
- * Text Domain:       tec-labs-ce-convert-content-to-blocks
+ * Text Domain:       tec-labs-event-origin-filter
  *
  *     This plugin is free software: you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by
@@ -49,7 +49,7 @@ class Event_Filter_By_Origin {
 		if ( $this->maybe_render() ) {
 			// Output the dropdown filter
 			echo '<select name="event_origin_filter">';
-			echo '<option value="">Events from all sources</option>';
+			echo '<option value="">' . esc_html__( 'Events from all sources', 'tec-labs-event-origin-filter' ) . '</option>';
 
 			$origins = $this->get_unique_event_origins();
 
