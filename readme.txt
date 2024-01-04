@@ -40,6 +40,7 @@ We're always interested in your feedback and our [Help Desk](https://support.the
 
 * Tweak - Rework when the filter should be rendered.
 * Tweak - Added license.txt and readme.txt.
+* Fix - Change text domain.
 
 = [1.0.0] 2024-01-03 =
 
